@@ -1,0 +1,195 @@
+    Welcome to the CMPT 120 6-49 Processing System!
+    ===============================================
+
+You first need to provide the input file name
+You will be asked to provide the output file name later
+
+The input file should be in this folder
+The output file should be created in this folder
+
+You will be able to provide new names for the files
+or accept the default names. Both files should have the extension  .csv
+
+Type x for INPUT file name 'IN_data_draws3.csv', or a new file name ==> testdata.csv
+
+.... TRACE - data read from the file
+
+....... ['10-Nov-18', '6', '9', '16', '20', '31', '41', '49', '7000', '2']
+....... ['6-Oct-18', '20', '23', '24', '33', '37', '48', '22', '8300', '4']
+....... ['3-Oct-18', '5', '32', '38', '40', '44', '45', '2', '3400', '3']
+....... ['11-Aug-18', '2', '9', '16', '27', '38', '41', '34', '1500', '2']
+....... ['8-Aug-18', '9', '18', '21', '22', '29', '37', '17', '9200', '4']
+....... ['16-May-18', '1', '21', '28', '30', '39', '46', '7', '6900', '3']
+....... ['10-Mar-18', '2', '10', '28', '43', '44', '48', '39', '1700', '2']
+....... ['7-Mar-18', '6', '25', '33', '40', '45', '46', '40', '4100', '3']
+....... ['3-Mar-18', '2', '7', '25', '30', '32', '39', '47', '2800', '1']
+....... ['13-Dec-17', '12', '29', '30', '40', '45', '48', '27', '6600', '4']
+....... ['23-Sep-17', '4', '11', '15', '20', '35', '47', '25', '6600', '0']
+....... ['16-Sep-17', '9', '17', '19', '26', '40', '47', '13', '5200', '0']
+
+Please choose one of three options:
+
+Type ALL to process all the data
+Type SEL to process selected draws
+Type END to end this program
+
+Type ALL, SEL OR END (not case sensitive) ==> all
+
+============= ALL the data will be processed ============
+
+
+
+Please confirm the output file name for your selected data
+    (if there is a file with this name in the folder
+      this new file substitute the previous one)
+
+Type x for OUTPUT file name 'OUT_results3.csv', or a new file name ==> x
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 0
+date 10-Nov-18
+numbers drawn ['6', '9', '16', '20', '31', '41', '49']
+jackpot 7000
+num winners 2
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 1
+date 6-Oct-18
+numbers drawn ['20', '23', '24', '33', '37', '48', '22']
+jackpot 8300
+num winners 4
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 2
+date 3-Oct-18
+numbers drawn ['5', '32', '38', '40', '44', '45', '2']
+jackpot 3400
+num winners 3
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 3
+date 11-Aug-18
+numbers drawn ['9', '16', '27', '38', '41', '34', '2']
+jackpot 1500
+num winners 2
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 4
+date 8-Aug-18
+numbers drawn ['9', '18', '21', '22', '29', '37', '17']
+jackpot 9200
+num winners 4
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 5
+date 16-May-18
+numbers drawn ['1', '21', '28', '30', '39', '46', '7']
+jackpot 6900
+num winners 3
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 6
+date 10-Mar-18
+numbers drawn ['10', '28', '43', '44', '48', '39', '2']
+jackpot 1700
+num winners 2
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 7
+date 7-Mar-18
+numbers drawn ['6', '25', '33', '40', '45', '46', '40']
+jackpot 4100
+num winners 3
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 8
+date 3-Mar-18
+numbers drawn ['2', '7', '25', '30', '32', '39', '47']
+jackpot 2800
+num winners 1
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 9
+date 13-Dec-17
+numbers drawn ['12', '29', '30', '40', '45', '48', '27']
+jackpot 6600
+num winners 4
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 10
+date 23-Sep-17
+numbers drawn ['4', '11', '15', '20', '35', '47', '25']
+jackpot 6600
+num winners 0
+
+ JUST TO TRACE, the draw being processed is:
+
+index# 11
+date 16-Sep-17
+numbers drawn ['9', '17', '19', '26', '40', '47', '13']
+jackpot 5200
+num winners 0
+
+
+TRACING: Here is the output saved to the file!
+
+'10-Nov-18',2,2,0,1,2,3500.0
+'6-Oct-18',0,1,3,2,1,2075.0
+'3-Oct-18',2,0,0,3,2,1133.3333333333333
+'11-Aug-18',2,1,1,2,1,750.0
+'8-Aug-18',1,2,3,1,0,2300.0
+'16-May-18',2,0,3,1,1,2300.0
+'10-Mar-18',2,0,1,1,3,850.0
+'7-Mar-18',1,0,1,3,2,1366.6666666666667
+'3-Mar-18',2,0,2,2,1,2800.0
+'13-Dec-17',0,1,3,1,2,1650.0
+'23-Sep-17',1,3,1,1,1,0
+'16-Sep-17',1,3,1,1,1,0
+
+=========== STATS: ===========
+
+draw processed 12
+
+max jackpot 9200
+date max jackpot 8-Aug-18
+
+max average won 3500.0
+date max average won 10-Nov-18
+
+number of times each number was drawn 
+[0, 1, 4, 0, 1, 1, 2, 2, 0, 4, 1, 1, 1, 1, 0, 1, 2, 2, 1, 1, 3, 2, 2, 1, 1, 3, 1, 2, 2, 2, 3, 1, 2, 2, 1, 1, 0, 2, 2, 3, 5, 2, 0, 1, 2, 3, 2, 3, 3, 1]
+
+number of numbers in each range - all selected draws considered 
+ranges: (0,10], (10,20], (20,30], (30,40], (40,50) 
+[16, 13, 19, 19, 17]
+
+Six most frequently drawn numbers
+number 40 was drawn 5 times
+number 2 was drawn 4 times
+number 9 was drawn 4 times
+number 20 was drawn 3 times
+number 25 was drawn 3 times
+number 30 was drawn 3 times
+
+Would you like to graph the ranges distributions? (Y/N): y
+
+Please choose one of three options:
+
+Type ALL to process all the data
+Type SEL to process selected draws
+Type END to end this program
+
+Type ALL, SEL OR END (not case sensitive) ==> end
+BYE .... no more stats for you!!
+>>>

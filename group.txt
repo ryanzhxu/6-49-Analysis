@@ -1,0 +1,13 @@
+Group Members: Chris Yaqi Li, Ryan Zehong Xu, Weicheng Song
+
+Student #s: 301369091, 301369745, 301470808
+
+Course: CMPT 120 D200
+
+Semester & Campus: FALL 2018, SFU Burnaby
+
+Instructor: Diana Cukierman
+
+Submission Date: Dec 3th, 2018
+
+We recognized the difficulty of this assignment and due to the fact that it's time-consuming, we have decided to first discuss together on how the code should be written and how should the codes flow before we get to the hands-on work. After coming up with many of the ideas, we worked together and try to shorten the length of the codes by creating many functions that may work on its own. When the planning stage is all completed, we separated our tasks and work independently. Ryan was in-charge of the overall construction of the code, Chris was taking care of the processing of data, and Weicheng did the wrap up of the functions and the codes. In terms of the bonus part, we sat together and discussed about how that should be written in the most efficient way and we were pretty satisfied with what we have done. Overall, the entire assignment took us apprimately 30 hours to complete.
